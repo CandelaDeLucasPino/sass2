@@ -1,0 +1,55 @@
+body {
+  background-color: #f1e6ea; }
+
+.fondo-nav {
+  background-color: #f3cdf3; }
+  .fondo-nav .container-fluid .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3d3b3b; }
+  .fondo-nav .container-fluid .navbar-collapse .navbar-me .nav-item .nav-link {
+    color: #3d3b3b;
+    font-size: 20px;
+    font-weight: bolder; }
+
+header img {
+  width: 100%; }
+
+main .tarjetas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 60px; }
+  main .tarjetas .card-body {
+    display: flex;
+    flex-direction: column; }
+    main .tarjetas .card-body .card-title {
+      text-align: center; }
+    main .tarjetas .card-body .btn-color {
+      background-color: #f3cdf3; }
+
+footer {
+  background-color: #f3cdf3;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  text-align: right; }
+  footer .redessociales {
+    position: absolute;
+    top: 8px;
+    right: 60px; }
+    footer .redessociales .instagram {
+      width: 30px;
+      height: 25px;
+      display: inline-block; }
+    footer .redessociales .youtube {
+      width: 30px;
+      height: 25px;
+      display: inline-block; }
+    footer .redessociales .facebook {
+      width: 30px;
+      height: 25px;
+      display: inline-block; }

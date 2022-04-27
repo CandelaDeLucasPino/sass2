@@ -1,0 +1,87 @@
+$color-ppal: #f3cdf3;
+$color-seg: #f1e6ea;
+$color-ter:#EBE2E5;
+$color-nav: #3d3b3b;
+
+
+
+body{
+    background-color: $color-seg;
+}
+.fondo-nav{
+    background-color: $color-ppal;
+    .container-fluid{
+        .navbar-brand{
+            font-size: 30px;
+            font-weight: bold;
+            color: $color-nav;
+        }
+        .navbar-collapse{
+            .navbar-me{
+                .nav-item{
+                    .nav-link{
+                        color: $color-nav;
+                        font-size: 20px;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+    }
+}
+header{
+    img{
+        width: 100%;
+    }
+}
+main{
+    .tarjetas{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 60px;
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            .card-title{
+                text-align: center;
+            }
+            .btn-color{
+                background-color: $color-ppal;
+            }
+        }
+    }
+}
+footer{
+        background-color: $color-ppal;
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        bottom: 0;
+        text-align: right;
+        .redessociales {
+            position: absolute;
+            top: 8px;
+            right: 60px; 
+            
+            .instagram {
+                width: 30px;
+                height: 25px;
+                display: inline-block;
+            }
+              
+            .youtube {
+                width: 30px;
+                height: 25px;
+                display: inline-block; 
+            }
+              
+            .facebook {
+                width: 30px;
+                height: 25px;
+                display: inline-block; 
+            }
+        }
+}
