@@ -3,8 +3,7 @@ $color-seg: #f1e6ea;
 $color-ter:#EBE2E5;
 $color-nav: #3d3b3b;
 
-
-
+@mixin noe ($witdh,$height)
 body{
     background-color: $color-seg;
 }
@@ -55,12 +54,12 @@ main{
     }
 }
 footer{
-        background-color: $color-ppal;
-        position: fixed;
-        width: 100%;
-        height: 40px;
-        bottom: 0;
-        text-align: right;
+    @extend .fondo-nav;
+    @include noe(100%,40px )      
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+     
         .redessociales {
             position: absolute;
             top: 8px;
