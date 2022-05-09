@@ -4,7 +4,8 @@ $color-ter:#EBE2E5;
 $color-nav: #3d3b3b;
 
 @mixin noe ($witdh,$height)
-body{
+
+body {
     background-color: $color-seg;
 }
 .fondo-nav{
@@ -60,27 +61,25 @@ footer{
     bottom: 0;
     text-align: right;
      
-        .redessociales {
-            position: absolute;
-            top: 8px;
-            right: 60px; 
-            
-            .instagram {
-                width: 30px;
-                height: 25px;
-                display: inline-block;
+    .redessociales {
+        position: absolute;
+        top: 8px;
+        right: 60px; 
+        .instagram {
+            width: 30px;
+            height: 25px;
+            display: inline-block;
             }
-              
-            .youtube {
+        .youtube {
                 width: 30px;
                 height: 25px;
                 display: inline-block; 
             }
               
-            .facebook {
+        .facebook {
                 width: 30px;
                 height: 25px;
                 display: inline-block; 
             }
-        }
+   }
 }
